@@ -1,0 +1,622 @@
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 0   | Lecture      | Program Definition                                                          |                                                                             |
+|     |              | Variables                                                                   |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | CPU functionality                                                           |                                                                             |
+|     |              | Interpreters                                                                |                                                                             |
+|     |              | Machine Code                                                                |                                                                             |
+|     |              | Secondary Memory                                                            |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | RAM functionality                                                           |                                                                             |
+|     |              | Assignment                                                                  |                                                                             |
+|     |              | Self Assignment                                                             |                                                                             |
+|     |              | Compilers                                                                   |                                                                             |
+|     |              | Comments                                                                    |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 3   | Lecture      | `>=` integer operator                                                       |                                                                             |
+|     |              | Strings                                                                     |                                                                             |
+|     |              | `-` float operator                                                          |                                                                             |
+|     |              | `>=` float operator                                                         |                                                                             |
+|     |              | `+` integer operator                                                        |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | `or` operator                                                               |                                                                             |
+|     |              | `/` integer operator                                                        |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | `!=` integer operator                                                       |                                                                             |
+|     |              | `*` float operator                                                          |                                                                             |
+|     |              | `*` integer operator                                                        |                                                                             |
+|     |              | `/=` integer operator                                                       |                                                                             |
+|     |              | `-` integer operator                                                        |                                                                             |
+|     |              | `!=` float operator                                                         |                                                                             |
+|     |              | Automatic Conversion                                                        |                                                                             |
+|     |              | `int()` function                                                            |                                                                             |
+|     |              | Order of Operations                                                         |                                                                             |
+|     |              | `<=` integer operator                                                       |                                                                             |
+|     |              | `+` float operator                                                          |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|     |              | `*=` integer operator                                                       |                                                                             |
+|     |              | `float()` function                                                          |                                                                             |
+|     |              | `and` operator                                                              |                                                                             |
+|     |              | `-=` float operator                                                         |                                                                             |
+|     |              | `not` operator                                                              |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | `+=` integer operator                                                       |                                                                             |
+|     |              | `/=` float operator                                                         |                                                                             |
+|     |              | Integers                                                                    |                                                                             |
+|     |              | Floats                                                                      |                                                                             |
+|     |              | `/` float operator                                                          |                                                                             |
+|     |              | `-=` integer operator                                                       |                                                                             |
+|     |              | Assignment                                                                  |                                                                             |
+|     |              | Self Assignment                                                             |                                                                             |
+|     |              | `+=` float operator                                                         |                                                                             |
+|     |              | Variables                                                                   |                                                                             |
+|     |              | `<=` float operator                                                         |                                                                             |
+|     |              | `*=` float operator                                                         |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 4   | Quiz         | Q1. What will the following program print out?                              | A1. x + 1                                                                   |
+|     |              | ```                                                                         | Knowledge Components:                                                       |
+|     |              | x = 43                                                                      | Confused string assignment                                                  |
+|     |              | x = x + 1                                                                   | A2. I don't know.                                                           |
+|     |              | print(x)                                                                    | Knowledge Components:                                                       |
+|     |              | ```                                                                         | A3. x is 15 and y is 22                                                     |
+|     |              | Q2. After the following statements, what are the values of `x` and `y`?     | Knowledge Components:                                                       |
+|     |              | ```                                                                         | A4. 3                                                                       |
+|     |              | x = 15#3                                                                    | Knowledge Components:                                                       |
+|     |              | y = x                                                                       |                                                                             |
+|     |              | x = 22#3                                                                    |                                                                             |
+|     |              | ```                                                                         |                                                                             |
+|     |              | Q3. After the following statements, what are the values of `x` and `y`?     |                                                                             |
+|     |              | ```                                                                         |                                                                             |
+|     |              | x = 15                                                                      |                                                                             |
+|     |              | y = x                                                                       |                                                                             |
+|     |              | x = 22                                                                      |                                                                             |
+|     |              | ```                                                                         |                                                                             |
+|     |              | Q4. What is the value of `15 / 12`?                                         |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 12  | Homework     | Q1. Write a program that will convert inches to feet from user input. Remin | A1. ```                                                                     |
+|     |              | der: there are 12 inches in a foot.                                         | inches = input()                                                            |
+|     |              | ## Example Cases:                                                           | feet = int(inches) / 12                                                     |
+|     |              | ```                                                                         | print(feet)                                                                 |
+|     |              | Input: 12 => Output: 1                                                      | ```                                                                         |
+|     |              | Input: 18 => Output: 1.5                                                    | Knowledge Components:                                                       |
+|     |              | Input: 24 => Output: 2                                                      | `=` operator                                                                |
+|     |              | ```                                                                         | `input()` function                                                          |
+|     |              | Q2. Write a program that uses input to prompt a user for their name and the | `int()` function                                                            |
+|     |              | n welcomes them with "Hello <insert name here>, welcome!"                   | `/` integer operator                                                        |
+|     |              | ## Example Cases:                                                           | Automatic Conversion                                                        |
+|     |              | ```                                                                         | `print()` function                                                          |
+|     |              | Input: Mary => Output: Hello Mary, welcome!                                 | A2. ```                                                                     |
+|     |              | Input: Gary => Output: Hello Gary, welcome!                                 | s = input()                                                                 |
+|     |              | Input: Larry => Output: Hello Larry, welcome!                               | print("Hello" + s + ", welcome!")                                           |
+|     |              | ```                                                                         | ```                                                                         |
+|     |              | Q3. Write a program which prompts the user for a Celsius temperature, conve | Knowledge Components:                                                       |
+|     |              | rt the temperature to Fahrenheit, and print out the converted temperature.  | `=` operator                                                                |
+|     |              | Recall that Fahrenheit = Celsius * \frac{9}{5} + 32                         | `input()` function                                                          |
+|     |              | ## Example Cases:                                                           | `print()` function                                                          |
+|     |              | ```                                                                         | `" "` constructor                                                           |
+|     |              | Input: 0 => Output: 32                                                      | `+` string operator                                                         |
+|     |              | Input: 100 => Output: 212                                                   | A3. ```                                                                     |
+|     |              | Input: 23 => Output: 73.4                                                   | celsius = int(input())                                                      |
+|     |              | ```                                                                         | print(celsius * 9 / 5 + 32)                                                 |
+|     |              |                                                                             | ```                                                                         |
+|     |              |                                                                             | Knowledge Components:                                                       |
+|     |              |                                                                             | `int()` function                                                            |
+|     |              |                                                                             | `input()` function                                                          |
+|     |              |                                                                             | `print()` function                                                          |
+|     |              |                                                                             | `*` integer operator                                                        |
+|     |              |                                                                             | `/` integer operator                                                        |
+|     |              |                                                                             | `+` integer operator                                                        |
+|     |              |                                                                             | `=` operator                                                                |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 6   | Office Hours | `>=` integer operator                                                       |                                                                             |
+|     |              | Strings                                                                     |                                                                             |
+|     |              | `-` float operator                                                          |                                                                             |
+|     |              | `>=` float operator                                                         |                                                                             |
+|     |              | `+` integer operator                                                        |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | `or` operator                                                               |                                                                             |
+|     |              | `/` integer operator                                                        |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | `!=` integer operator                                                       |                                                                             |
+|     |              | `*` float operator                                                          |                                                                             |
+|     |              | `*` integer operator                                                        |                                                                             |
+|     |              | `/=` integer operator                                                       |                                                                             |
+|     |              | `-` integer operator                                                        |                                                                             |
+|     |              | `!=` float operator                                                         |                                                                             |
+|     |              | Automatic Conversion                                                        |                                                                             |
+|     |              | `int()` function                                                            |                                                                             |
+|     |              | Order of Operations                                                         |                                                                             |
+|     |              | `<=` integer operator                                                       |                                                                             |
+|     |              | `+` float operator                                                          |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|     |              | `*=` integer operator                                                       |                                                                             |
+|     |              | `float()` function                                                          |                                                                             |
+|     |              | `and` operator                                                              |                                                                             |
+|     |              | `-=` float operator                                                         |                                                                             |
+|     |              | `not` operator                                                              |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | `+=` integer operator                                                       |                                                                             |
+|     |              | `/=` float operator                                                         |                                                                             |
+|     |              | Integers                                                                    |                                                                             |
+|     |              | Floats                                                                      |                                                                             |
+|     |              | `/` float operator                                                          |                                                                             |
+|     |              | `-=` integer operator                                                       |                                                                             |
+|     |              | Assignment                                                                  |                                                                             |
+|     |              | Self Assignment                                                             |                                                                             |
+|     |              | `+=` float operator                                                         |                                                                             |
+|     |              | Variables                                                                   |                                                                             |
+|     |              | `<=` float operator                                                         |                                                                             |
+|     |              | `*=` float operator                                                         |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 12  | Homework     | Q1. Write a program that will convert inches to feet from user input. Remin | A1. ```                                                                     |
+|     |              | der: there are 12 inches in a foot.                                         | inches = input()                                                            |
+|     |              | ## Example Cases:                                                           | feet = int(inches) / 12                                                     |
+|     |              | ```                                                                         | print(feet)                                                                 |
+|     |              | Input: 12 => Output: 1                                                      | ```                                                                         |
+|     |              | Input: 18 => Output: 1.5                                                    | Knowledge Components:                                                       |
+|     |              | Input: 24 => Output: 2                                                      | `=` operator                                                                |
+|     |              | ```                                                                         | `input()` function                                                          |
+|     |              | Q2. Write a program that uses input to prompt a user for their name and the | `int()` function                                                            |
+|     |              | n welcomes them with "Hello <insert name here>, welcome!"                   | `/` integer operator                                                        |
+|     |              | ## Example Cases:                                                           | Automatic Conversion                                                        |
+|     |              | ```                                                                         | `print()` function                                                          |
+|     |              | Input: Mary => Output: Hello Mary, welcome!                                 | A2. ```                                                                     |
+|     |              | Input: Gary => Output: Hello Gary, welcome!                                 | s = input()                                                                 |
+|     |              | Input: Larry => Output: Hello Larry, welcome!                               | print("Hello" + s + ", welcome!")                                           |
+|     |              | ```                                                                         | ```                                                                         |
+|     |              | Q3. Write a program which prompts the user for a Celsius temperature, conve | Knowledge Components:                                                       |
+|     |              | rt the temperature to Fahrenheit, and print out the converted temperature.  | `=` operator                                                                |
+|     |              | Recall that Fahrenheit = Celsius * \frac{9}{5} + 32                         | `input()` function                                                          |
+|     |              | ## Example Cases:                                                           | `print()` function                                                          |
+|     |              | ```                                                                         | `" "` constructor                                                           |
+|     |              | Input: 0 => Output: 32                                                      | `+` string operator                                                         |
+|     |              | Input: 100 => Output: 212                                                   | A3. ```                                                                     |
+|     |              | Input: 23 => Output: 73.4                                                   | celsius = int(input())                                                      |
+|     |              | ```                                                                         | print(celsius * 9 / 5 + 32)                                                 |
+|     |              |                                                                             | ```                                                                         |
+|     |              |                                                                             | Knowledge Components:                                                       |
+|     |              |                                                                             | `int()` function                                                            |
+|     |              |                                                                             | `input()` function                                                          |
+|     |              |                                                                             | `print()` function                                                          |
+|     |              |                                                                             | `*` integer operator                                                        |
+|     |              |                                                                             | `/` integer operator                                                        |
+|     |              |                                                                             | `+` integer operator                                                        |
+|     |              |                                                                             | `=` operator                                                                |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 10  | Lecture      | Strings                                                                     |                                                                             |
+|     |              | `float()` function                                                          |                                                                             |
+|     |              | `//` integer operator                                                       |                                                                             |
+|     |              | `//=` integer operator                                                      |                                                                             |
+|     |              | `def` constructor                                                           |                                                                             |
+|     |              | `%` float operator                                                          |                                                                             |
+|     |              | `type()` function                                                           |                                                                             |
+|     |              | `str()` function                                                            |                                                                             |
+|     |              | `//` float operator                                                         |                                                                             |
+|     |              | `int()` function                                                            |                                                                             |
+|     |              | `' '` constructor                                                           |                                                                             |
+|     |              | Functions                                                                   |                                                                             |
+|     |              | `" "` constructor                                                           |                                                                             |
+|     |              | `%=` integer operator                                                       |                                                                             |
+|     |              | `%` integer operator                                                        |                                                                             |
+|     |              | Operator Chaining                                                           |                                                                             |
+|     |              | Order of Operations                                                         |                                                                             |
+|     |              | `%=` float operator                                                         |                                                                             |
+|     |              | `//=` float operator                                                        |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 12  | Office Hours | Automatic Conversion                                                        |                                                                             |
+|     |              | Floats                                                                      |                                                                             |
+|     |              | Assignment                                                                  |                                                                             |
+|     |              | `+` integer operator                                                        |                                                                             |
+|     |              | `+` string operator                                                         |                                                                             |
+|     |              | `" "` constructor                                                           |                                                                             |
+|     |              | Variables                                                                   |                                                                             |
+|     |              | Strings                                                                     |                                                                             |
+|     |              | `int()` function                                                            |                                                                             |
+|     |              | `/` integer operator                                                        |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | Integers                                                                    |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|     |              | `*` integer operator                                                        |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 12  | Homework     | Q1. Write a program that will convert inches to feet from user input. Remin | A1. ```                                                                     |
+|     |              | der: there are 12 inches in a foot.                                         | inches = input()                                                            |
+|     |              | ## Example Cases:                                                           | feet = int(inches) / 12                                                     |
+|     |              | ```                                                                         | print(feet)                                                                 |
+|     |              | Input: 12 => Output: 1                                                      | ```                                                                         |
+|     |              | Input: 18 => Output: 1.5                                                    | Knowledge Components:                                                       |
+|     |              | Input: 24 => Output: 2                                                      | `=` operator                                                                |
+|     |              | ```                                                                         | `input()` function                                                          |
+|     |              | Q2. Write a program that uses input to prompt a user for their name and the | `int()` function                                                            |
+|     |              | n welcomes them with "Hello <insert name here>, welcome!"                   | `/` integer operator                                                        |
+|     |              | ## Example Cases:                                                           | Automatic Conversion                                                        |
+|     |              | ```                                                                         | `print()` function                                                          |
+|     |              | Input: Mary => Output: Hello Mary, welcome!                                 | A2. ```                                                                     |
+|     |              | Input: Gary => Output: Hello Gary, welcome!                                 | s = input()                                                                 |
+|     |              | Input: Larry => Output: Hello Larry, welcome!                               | print("Hello" + s + ", welcome!")                                           |
+|     |              | ```                                                                         | ```                                                                         |
+|     |              | Q3. Write a program which prompts the user for a Celsius temperature, conve | Knowledge Components:                                                       |
+|     |              | rt the temperature to Fahrenheit, and print out the converted temperature.  | `=` operator                                                                |
+|     |              | Recall that Fahrenheit = Celsius * \frac{9}{5} + 32                         | `input()` function                                                          |
+|     |              | ## Example Cases:                                                           | `print()` function                                                          |
+|     |              | ```                                                                         | `" "` constructor                                                           |
+|     |              | Input: 0 => Output: 32                                                      | `+` string operator                                                         |
+|     |              | Input: 100 => Output: 212                                                   | A3. ```                                                                     |
+|     |              | Input: 23 => Output: 73.4                                                   | celsius = int(input())                                                      |
+|     |              | ```                                                                         | print(celsius * 9 / 5 + 32)                                                 |
+|     |              |                                                                             | ```                                                                         |
+|     |              |                                                                             | Knowledge Components:                                                       |
+|     |              |                                                                             | `int()` function                                                            |
+|     |              |                                                                             | `input()` function                                                          |
+|     |              |                                                                             | `print()` function                                                          |
+|     |              |                                                                             | `*` integer operator                                                        |
+|     |              |                                                                             | `/` integer operator                                                        |
+|     |              |                                                                             | `+` integer operator                                                        |
+|     |              |                                                                             | `=` operator                                                                |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 13  | Lecture      | `!=` string operator                                                        |                                                                             |
+|     |              | `""" """` constructor                                                       |                                                                             |
+|     |              | `lower()` method                                                            |                                                                             |
+|     |              | Strings                                                                     |                                                                             |
+|     |              | String Slicing                                                              |                                                                             |
+|     |              | `def` constructor                                                           |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|     |              | `replace()` method                                                          |                                                                             |
+|     |              | `==` string operator                                                        |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | `" "` constructor                                                           |                                                                             |
+|     |              | `*` string operator                                                         |                                                                             |
+|     |              | `upper()` method                                                            |                                                                             |
+|     |              | `<` string operator                                                         |                                                                             |
+|     |              | Formatted Strings                                                           |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | `>` string operator                                                         |                                                                             |
+|     |              | `len()` string function                                                     |                                                                             |
+|     |              | `' '` constructor                                                           |                                                                             |
+|     |              | Formatted Strings                                                           |                                                                             |
+|     |              | `+` string operator                                                         |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 14  | Quiz         | Q1. What is the value of `15 // 12`?                                        | A1. 1                                                                       |
+|     |              | Q2. What is the value of the following expression:                          | Knowledge Components:                                                       |
+|     |              | `16 - 2 * 5 // 3 + 1`                                                       | `//` integer operator                                                       |
+|     |              | Q3. What is printed when the following statements execute?                  | A2. 3                                                                       |
+|     |              | ```                                                                         | Knowledge Components:                                                       |
+|     |              | n = input("Please enter your age: ")                                        | `+` integer operator                                                        |
+|     |              | # user types in 18                                                          | `//` integer operator                                                       |
+|     |              | print ( type(n) )                                                           | `*` integer operator                                                        |
+|     |              | ```                                                                         | `-` integer operator                                                        |
+|     |              | Q4. What is the value of `15 % 12`?                                         | A3. <class 'str'>                                                           |
+|     |              |                                                                             | Knowledge Components:                                                       |
+|     |              |                                                                             | Strings                                                                     |
+|     |              |                                                                             | `print()` function                                                          |
+|     |              |                                                                             | `input()` function                                                          |
+|     |              |                                                                             | `type()` function                                                           |
+|     |              |                                                                             | A4. 1.8                                                                     |
+|     |              |                                                                             | Knowledge Components:                                                       |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 15  | Office Hours | Program Definition                                                          |                                                                             |
+|     |              | Variables                                                                   |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | CPU functionality                                                           |                                                                             |
+|     |              | Interpreters                                                                |                                                                             |
+|     |              | Machine Code                                                                |                                                                             |
+|     |              | Secondary Memory                                                            |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | RAM functionality                                                           |                                                                             |
+|     |              | Assignment                                                                  |                                                                             |
+|     |              | Self Assignment                                                             |                                                                             |
+|     |              | Compilers                                                                   |                                                                             |
+|     |              | Comments                                                                    |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 16  | Office Hours | Strings                                                                     |                                                                             |
+|     |              | `float()` function                                                          |                                                                             |
+|     |              | `//` integer operator                                                       |                                                                             |
+|     |              | `//=` integer operator                                                      |                                                                             |
+|     |              | `def` constructor                                                           |                                                                             |
+|     |              | `%` float operator                                                          |                                                                             |
+|     |              | `type()` function                                                           |                                                                             |
+|     |              | `str()` function                                                            |                                                                             |
+|     |              | `//` float operator                                                         |                                                                             |
+|     |              | `int()` function                                                            |                                                                             |
+|     |              | `' '` constructor                                                           |                                                                             |
+|     |              | Functions                                                                   |                                                                             |
+|     |              | `" "` constructor                                                           |                                                                             |
+|     |              | `%=` integer operator                                                       |                                                                             |
+|     |              | `%` integer operator                                                        |                                                                             |
+|     |              | Operator Chaining                                                           |                                                                             |
+|     |              | Order of Operations                                                         |                                                                             |
+|     |              | `%=` float operator                                                         |                                                                             |
+|     |              | `//=` float operator                                                        |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 17  | Office Hours | Floats                                                                      |                                                                             |
+|     |              | `+` integer operator                                                        |                                                                             |
+|     |              | `if` keyword                                                                |                                                                             |
+|     |              | `+=` integer operator                                                       |                                                                             |
+|     |              | `==` integer operator                                                       |                                                                             |
+|     |              | `-` integer operator                                                        |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | Operator Chaining                                                           |                                                                             |
+|     |              | Assignment                                                                  |                                                                             |
+|     |              | `>` float operator                                                          |                                                                             |
+|     |              | `else` keyword                                                              |                                                                             |
+|     |              | Functions                                                                   |                                                                             |
+|     |              | Order of Operations                                                         |                                                                             |
+|     |              | `+` float operator                                                          |                                                                             |
+|     |              | `>=` integer operator                                                       |                                                                             |
+|     |              | `-` float operator                                                          |                                                                             |
+|     |              | Integers                                                                    |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | `>` integer operator                                                        |                                                                             |
+|     |              | `while` loops                                                               |                                                                             |
+|     |              | `*` float operator                                                          |                                                                             |
+|     |              | Variables                                                                   |                                                                             |
+|     |              | `def` constructor                                                           |                                                                             |
+|     |              | `return` keyword                                                            |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 17  | Homework     | Q1. Write a function `pay(hours:float, rate:float)->float`, where `hours` i | A1. I don't know.                                                           |
+|     |              | s the number of hours that an employee has worked in a week and `rate` is t | Knowledge Components:                                                       |
+|     |              | he pay that employee receives per hour. If the employee works for more than | A2. I don't know.                                                           |
+|     |              |  40 hours in a week, the employee should be paid 1.5 times their regular ra | Knowledge Components:                                                       |
+|     |              | te for each hour over 40.                                                   | A3. ```                                                                     |
+|     |              | Return the amount the employee would be paid for the hours of work given, t | def profit(base, sale, manufacturing_cost):                                 |
+|     |              | axes should not be considered.                                              |   return base * (1 - sale) - manufacturing_cost                             |
+|     |              | ## Example Cases:                                                           | ```                                                                         |
+|     |              | ```                                                                         | Knowledge Components:                                                       |
+|     |              | pay(5.0,12.0) => 60.0                                                       | `def` constructor                                                           |
+|     |              | pay(10.0,15.0) => 150.0                                                     | `-` float operator                                                          |
+|     |              | pay(100.0, 150.5) => 15050                                                  | `*` float operator                                                          |
+|     |              | ```                                                                         | `return` keyword                                                            |
+|     |              | Q2. Write a function `split_apples(apples:int, children:int) ->int` that ta | Floats                                                                      |
+|     |              | kes in an amount of apples and a number of children. The function should di |                                                                             |
+|     |              | stribute `apples` evenly across all `children`. The function should return  |                                                                             |
+|     |              | the whole number of apples each child will get after distributing the apple |                                                                             |
+|     |              | s evenly. Assume that both `apples` and `children` are positive whole numbe |                                                                             |
+|     |              | rs.                                                                         |                                                                             |
+|     |              | ## Example Cases:                                                           |                                                                             |
+|     |              | ```                                                                         |                                                                             |
+|     |              | split_apples(10, 2) => 5                                                    |                                                                             |
+|     |              | split_apples(7, 2) => 3                                                     |                                                                             |
+|     |              | split_apples(100, 100) => 1                                                 |                                                                             |
+|     |              | split_apples(1, 2) => 0                                                     |                                                                             |
+|     |              | ```                                                                         |                                                                             |
+|     |              | Q3. Write a function `profit(base:float, sale:float, manufacturing_cost:flo |                                                                             |
+|     |              | at)->float` that represents how much money the profit a company makes on an |                                                                             |
+|     |              |  item on sale. The original price of the item, `base` has a percentage off  |                                                                             |
+|     |              | (represented as an integer) `sale` , such that the price to the consumer is |                                                                             |
+|     |              |  `sale` percent less than the `base` price. The `manufacturing_cost` is the |                                                                             |
+|     |              |  price of the creation of the item. Return the profit that the company make |                                                                             |
+|     |              | s after the item is sold, given that the company had to spend `manufacturin |                                                                             |
+|     |              | g_cost` to create the item. Reminder: Profit = Price - Cost.                |                                                                             |
+|     |              | ## Example Cases:                                                           |                                                                             |
+|     |              | ```                                                                         |                                                                             |
+|     |              | profit(100, 0.2, 30) => 50                                                  |                                                                             |
+|     |              | profit(50, 0.5, 30) => -5                                                   |                                                                             |
+|     |              | profit(20, 0.1, 10) => 8                                                    |                                                                             |
+|     |              | profit(15, 0.35, 8) => 9.75                                                 |                                                                             |
+|     |              | ```                                                                         |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 19  | Office Hours | `!=` string operator                                                        |                                                                             |
+|     |              | `""" """` constructor                                                       |                                                                             |
+|     |              | `lower()` method                                                            |                                                                             |
+|     |              | Strings                                                                     |                                                                             |
+|     |              | String Slicing                                                              |                                                                             |
+|     |              | `def` constructor                                                           |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|     |              | `replace()` method                                                          |                                                                             |
+|     |              | `==` string operator                                                        |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | `" "` constructor                                                           |                                                                             |
+|     |              | `*` string operator                                                         |                                                                             |
+|     |              | `upper()` method                                                            |                                                                             |
+|     |              | `<` string operator                                                         |                                                                             |
+|     |              | Formatted Strings                                                           |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | `>` string operator                                                         |                                                                             |
+|     |              | `len()` string function                                                     |                                                                             |
+|     |              | `' '` constructor                                                           |                                                                             |
+|     |              | Formatted Strings                                                           |                                                                             |
+|     |              | `+` string operator                                                         |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 20  | Lecture      | `" "` constructor                                                           |                                                                             |
+|     |              | `*` string operator                                                         |                                                                             |
+|     |              | Strings                                                                     |                                                                             |
+|     |              | `lower()` method                                                            |                                                                             |
+|     |              | `capitalize()` method                                                       |                                                                             |
+|     |              | `upper()` method                                                            |                                                                             |
+|     |              | `' '` constructor                                                           |                                                                             |
+|     |              | String Slicing                                                              |                                                                             |
+|     |              | `join()` method                                                             |                                                                             |
+|     |              | `+` string operator                                                         |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 21  | Reading      | `else` keyword                                                              |                                                                             |
+|     |              | `if` keyword                                                                |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | Conditionals                                                                |                                                                             |
+|     |              | Contracted `if`                                                             |                                                                             |
+|     |              | `elif` keyword                                                              |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 22  | Office Hours | `else` keyword                                                              |                                                                             |
+|     |              | `if` keyword                                                                |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | Conditionals                                                                |                                                                             |
+|     |              | Contracted `if`                                                             |                                                                             |
+|     |              | `elif` keyword                                                              |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 23  | Lecture      | `else` keyword                                                              |                                                                             |
+|     |              | `if` keyword                                                                |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | Conditionals                                                                |                                                                             |
+|     |              | Contracted `if`                                                             |                                                                             |
+|     |              | `elif` keyword                                                              |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 24  | Quiz         | Q1. What is the value of `x` in the following code after the execution of l | A1. 1                                                                       |
+|     |              | ine 4?                                                                      | Knowledge Components:                                                       |
+|     |              | ```                                                                         | `*` integer operator                                                        |
+|     |              | 1. x = 1 * 3                                                                | `/` integer operator                                                        |
+|     |              | 2. x += 4                                                                   | `=` operator                                                                |
+|     |              | 3. x = x - 3                                                                | `-` integer operator                                                        |
+|     |              | 4. x = x / 4                                                                | `+=` integer operator                                                       |
+|     |              | ```                                                                         | A2. "There are 27 ways to solve this problem."                              |
+|     |              | Q2. What is the value of `x` after the execution of these lines of code?    | Knowledge Components:                                                       |
+|     |              | ```                                                                         | `' '` constructor                                                           |
+|     |              | y = 27                                                                      | Formatted Strings                                                           |
+|     |              | x = f'There are {y} ways to solve this problem.'                            | Formatted Strings                                                           |
+|     |              | ```                                                                         | `=` operator                                                                |
+|     |              | Q3. What is the value of `x` after the execution of this line of code?      | A3. There is an error.                                                      |
+|     |              | ```                                                                         | Knowledge Components:                                                       |
+|     |              | x = "Sphinx of black quartz, judge my vow." * 3                             | `" "` constructor                                                           |
+|     |              | ```                                                                         | `=` operator                                                                |
+|     |              | Q4. What is the value of `x` after the execution of this line of code?      | A4. "Glib jocks quiz nymph to vex dwarf."                                   |
+|     |              | ```                                                                         | Knowledge Components:                                                       |
+|     |              | x = "Glib jocks quiz nymph to vex dwarf." + "asdf"                          | `" "` constructor                                                           |
+|     |              | ```                                                                         | `=` operator                                                                |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 27  | Office Hours | Assignment                                                                  |                                                                             |
+|     |              | `+` string operator                                                         |                                                                             |
+|     |              | `" "` constructor                                                           |                                                                             |
+|     |              | Variables                                                                   |                                                                             |
+|     |              | Strings                                                                     |                                                                             |
+|     |              | `int()` function                                                            |                                                                             |
+|     |              | `*` integer operator                                                        |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | Integers                                                                    |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 27  | Homework     | Q1. Write a program that uses input to prompt a user for their name and the | A1. ```                                                                     |
+|     |              | n welcomes them with "Hello <insert name here>, welcome!"                   | s = input()                                                                 |
+|     |              | ## Example Cases:                                                           | print("Hello" + s + ", welcome!")                                           |
+|     |              | ```                                                                         | ```                                                                         |
+|     |              | Input: Mary => Output: Hello Mary, welcome!                                 | Knowledge Components:                                                       |
+|     |              | Input: Gary => Output: Hello Gary, welcome!                                 | `=` operator                                                                |
+|     |              | Input: Larry => Output: Hello Larry, welcome!                               | `input()` function                                                          |
+|     |              | ```                                                                         | `print()` function                                                          |
+|     |              | Q2. Write a program to prompt the user for hours worked and the pay per hou | `" "` constructor                                                           |
+|     |              | r of an employee. Print the amount that the employee would be paid for thei | `+` string operator                                                         |
+|     |              | r work, do not consider taxes.                                              | A2. ```                                                                     |
+|     |              | ## Example Cases:                                                           | hours = int(input("hours: "))                                               |
+|     |              | ```                                                                         | rate = int(input("rate: "))                                                 |
+|     |              | Input: hours: 5 rate: 12 => Output: 60                                      | print(hours * rate)                                                         |
+|     |              | Input: hours: 10 rate: 15 => Output: 150                                    | ```                                                                         |
+|     |              | Input: hours: 100 rate: 200 => Output: 20000                                | Knowledge Components:                                                       |
+|     |              | ```                                                                         | `int()` function                                                            |
+|     |              |                                                                             | `input()` function                                                          |
+|     |              |                                                                             | `" "` constructor                                                           |
+|     |              |                                                                             | `print()` function                                                          |
+|     |              |                                                                             | `*` integer operator                                                        |
+|     |              |                                                                             | `=` operator                                                                |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 28  | Reading      | `and` operator                                                              |                                                                             |
+|     |              | Contracted `if`                                                             |                                                                             |
+|     |              | `elif` keyword                                                              |                                                                             |
+|     |              | `not` operator                                                              |                                                                             |
+|     |              | `if` keyword                                                                |                                                                             |
+|     |              | `or` operator                                                               |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | `else` keyword                                                              |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 29  | Office Hours | `>=` integer operator                                                       |                                                                             |
+|     |              | Strings                                                                     |                                                                             |
+|     |              | `-` float operator                                                          |                                                                             |
+|     |              | `>=` float operator                                                         |                                                                             |
+|     |              | `+` integer operator                                                        |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | `or` operator                                                               |                                                                             |
+|     |              | `/` integer operator                                                        |                                                                             |
+|     |              | `input()` function                                                          |                                                                             |
+|     |              | `!=` integer operator                                                       |                                                                             |
+|     |              | `*` float operator                                                          |                                                                             |
+|     |              | `*` integer operator                                                        |                                                                             |
+|     |              | `/=` integer operator                                                       |                                                                             |
+|     |              | `-` integer operator                                                        |                                                                             |
+|     |              | `!=` float operator                                                         |                                                                             |
+|     |              | Automatic Conversion                                                        |                                                                             |
+|     |              | `int()` function                                                            |                                                                             |
+|     |              | Order of Operations                                                         |                                                                             |
+|     |              | `<=` integer operator                                                       |                                                                             |
+|     |              | `+` float operator                                                          |                                                                             |
+|     |              | `print()` function                                                          |                                                                             |
+|     |              | `*=` integer operator                                                       |                                                                             |
+|     |              | `float()` function                                                          |                                                                             |
+|     |              | `and` operator                                                              |                                                                             |
+|     |              | `-=` float operator                                                         |                                                                             |
+|     |              | `not` operator                                                              |                                                                             |
+|     |              | `=` operator                                                                |                                                                             |
+|     |              | `+=` integer operator                                                       |                                                                             |
+|     |              | `/=` float operator                                                         |                                                                             |
+|     |              | Integers                                                                    |                                                                             |
+|     |              | Floats                                                                      |                                                                             |
+|     |              | `/` float operator                                                          |                                                                             |
+|     |              | `-=` integer operator                                                       |                                                                             |
+|     |              | Assignment                                                                  |                                                                             |
+|     |              | Self Assignment                                                             |                                                                             |
+|     |              | `+=` float operator                                                         |                                                                             |
+|     |              | Variables                                                                   |                                                                             |
+|     |              | `<=` float operator                                                         |                                                                             |
+|     |              | `*=` float operator                                                         |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 30  | Lecture      | `and` operator                                                              |                                                                             |
+|     |              | Contracted `if`                                                             |                                                                             |
+|     |              | `elif` keyword                                                              |                                                                             |
+|     |              | `not` operator                                                              |                                                                             |
+|     |              | `if` keyword                                                                |                                                                             |
+|     |              | `or` operator                                                               |                                                                             |
+|     |              | Booleans                                                                    |                                                                             |
+|     |              | `else` keyword                                                              |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 31  | Office Hours | `range()` function                                                          |                                                                             |
+|     |              | `continue` keyword                                                          |                                                                             |
+|     |              | `for` loops                                                                 |                                                                             |
+|     |              | `while` loops                                                               |                                                                             |
+|     |              | `break` keyword                                                             |                                                                             |
+|     |              | `try` keyword                                                               |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 33  | Lecture      | `range()` function                                                          |                                                                             |
+|     |              | `continue` keyword                                                          |                                                                             |
+|     |              | `for` loops                                                                 |                                                                             |
+|     |              | `while` loops                                                               |                                                                             |
+|     |              | `break` keyword                                                             |                                                                             |
+|     |              | `try` keyword                                                               |                                                                             |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| 34  | Quiz         | Q1. Given the code below, what line executes after line 2 executes?         | A1. Line 3                                                                  |
+|     |              | ```                                                                         | Knowledge Components:                                                       |
+|     |              | x = 4                                                                       | `=` operator                                                                |
+|     |              | if x < 3:                                                                   | `if` keyword                                                                |
+|     |              |     print ("x is less than 3")                                              | `print()` function                                                          |
+|     |              | print ("All done")                                                          | `" "` constructor                                                           |
+|     |              | ```                                                                         | A2. "The five jump quickly"                                                 |
+|     |              | Q2. What is the value of `x` after the execution of this line of code?      | Knowledge Components:                                                       |
+|     |              | ```                                                                         | `" "` constructor                                                           |
+|     |              | x = "The five boxing wizards jump quickly."[10:25]                          | `=` operator                                                                |
+|     |              | ```                                                                         | A3. There is an error.                                                      |
+|     |              | Q3. What is the value of `x` after the execution of this line of code?      | Knowledge Components:                                                       |
+|     |              | ```                                                                         | `" "` constructor                                                           |
+|     |              | x = "The quick brown fox jumped over the lazy dog."[:]                      | `=` operator                                                                |
+|     |              | ```                                                                         | A4.  FALSE                                                                  |
+|     |              | Q4. What does the following code print?                                     | Knowledge Components:                                                       |
+|     |              | ```                                                                         | `if` keyword                                                                |
+|     |              | if 4 + 5 == 10:                                                             | `else` keyword                                                              |
+|     |              |     print("TRUE")                                                           | `+` integer operator                                                        |
+|     |              | else:                                                                       | `==` integer operator                                                       |
+|     |              |     print("FALSE")                                                          | `print()` function                                                          |
+|     |              | ```                                                                         | `" "` constructor                                                           |
+|     |              | Q5. Given the code below, what describes the values of x that will cause th | A5. 1 to 9                                                                  |
+|     |              | e code to print “condition true”?                                           | Knowledge Components:                                                       |
+|     |              | ```                                                                         | `if` keyword                                                                |
+|     |              | if x > 0 and x < 10:                                                        | `>` integer operator                                                        |
+|     |              |     print ("condition true")                                                | `and` operator                                                              |
+|     |              | print ("All done")                                                          | `<` integer operator                                                        |
+|     |              | ```                                                                         | `print()` function                                                          |
+|     |              |                                                                             | `" "` constructor                                                           |
+|-----|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+
+
+Spheres:
+['`str()` function', 'Floats', '`+=` float operator', '`*=` float operator', '`%=` integer operator', 'Interpreters', 'Booleans', 'Assignment', '`continue` keyword', '`+` string operator', '`lower()` method', '`else` keyword', '`<` integer operator', 'Floating point equality', '`type()` function', 'Functions', '`+` float operator', 'CPU functionality', 'Self Assignment', '`*=` integer operator', '`""" """` constructor', '`//=` float operator', '`%=` float operator', '`*` string operator', '`//` integer operator', '`*` float operator', '`not` operator', 'String Slicing', '`and` operator', '`/=` integer operator', '`return` keyword', 'Strings', '`!=` string operator', 'String Indexing', '`try` keyword', '`" "` constructor', '`int()` function', '`%` integer operator', '`len()` string function', '`=` operator', '`>` integer operator', '`>=` float operator', '`+=` integer operator', 'Conditionals', 'Compilers', '`range()` function', '`%` float operator', '`elif` keyword', '`<` float operator', '`-=` integer operator', '`or` operator', '`<` string operator', 'Contracted `if`', 'Automatic Conversion', '`>=` integer operator', '`break` keyword', '`//` float operator', "`' '` constructor", '`/` integer operator', 'Integers', '`-=` float operator', '`*` integer operator', '`input()` function', '`+` integer operator', 'Formatted Strings', '`if` keyword', '`==` integer operator', '`-` integer operator', 'Operator Chaining', 'Comments', '`/` float operator', '`upper()` method', '`>` float operator', '`==` string operator', '`for` loops', '`replace()` method', '`print()` function', 'Order of Operations', '`<=` integer operator', 'RAM functionality', '`>` string operator', '`/=` float operator', '`-` float operator', '`float()` function', '`!=` integer operator', '`while` loops', 'Machine Code', 'Variables', 'Program Definition', '`//=` integer operator', '`def` constructor']
+Misconceptions:
+['Secondary memory data loss']
+Gaps:
+['`+` integer operator', 'Formatted Strings', '`if` keyword', 'Strings', '`==` integer operator', '`<=` float operator', 'Booleans', 'String Indexing', 'Assignment', '`else` keyword', '`" "` constructor', '`capitalize()` method', '`!=` float operator', '`<` integer operator', '`print()` function', "`' '` constructor", 'Control Flow', '`=` operator', '`>` integer operator', '`*` string operator', 'String Slicing', 'Variables', '`and` operator']
+Student 8, trace 28 done

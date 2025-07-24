@@ -1,0 +1,59 @@
+date,knowledge,event_type,event_title,desc_index
+08-16-2025,0.0,Lecture,Lecture,1
+08-16-2025,0.0,Knowledge Components,Knowledge Components for Lecture,2
+08-17-2025,0.0,Knowledge Components,Knowledge Components,3
+08-18-2025,0.0,Knowledge Components,Knowledge Components,4
+08-19-2025,2.608695652173913,Lecture,Lecture,5
+08-19-2025,2.608695652173913,Knowledge Components,Knowledge Components for Lecture,6
+08-20-2025,4.3478260869565215,Quiz,Quiz,7
+08-20-2025,4.3478260869565215,Knowledge Components,Knowledge Components for Quiz,8
+08-21-2025,4.3478260869565215,Knowledge Components,Knowledge Components,9
+08-22-2025,4.3478260869565215,Knowledge Components,Knowledge Components,10
+08-23-2025,4.3478260869565215,Knowledge Components,Knowledge Components,11
+08-24-2025,11.304347826086957,Reading,Reading,12
+08-24-2025,11.304347826086957,Knowledge Components,Knowledge Components for Reading,13
+08-25-2025,16.52173913043478,Homework,Homework,14
+08-25-2025,16.52173913043478,Knowledge Components,Knowledge Components for Homework,15
+08-26-2025,20.869565217391305,Lecture,Lecture,16
+08-26-2025,20.869565217391305,Knowledge Components,Knowledge Components for Lecture,17
+08-27-2025,24.347826086956523,Reading,Reading,18
+08-27-2025,24.347826086956523,Knowledge Components,Knowledge Components for Reading,19
+08-28-2025,25.217391304347824,Office Hours,Office Hours,20
+08-28-2025,25.217391304347824,Knowledge Components,Knowledge Components for Office Hours,21
+08-28-2025,25.217391304347824,Homework,Homework,22
+08-28-2025,25.217391304347824,Knowledge Components,Knowledge Components for Office Hours and Homework,23
+08-29-2025,36.52173913043478,Lecture,Lecture,24
+08-29-2025,36.52173913043478,Knowledge Components,Knowledge Components for Lecture,25
+08-30-2025,40.0,Quiz,Quiz,26
+08-30-2025,40.0,Knowledge Components,Knowledge Components for Quiz,27
+08-31-2025,40.0,Knowledge Components,Knowledge Components,28
+09-01-2025,40.0,Knowledge Components,Knowledge Components,29
+09-02-2025,40.0,Knowledge Components,Knowledge Components,30
+09-03-2025,40.0,Knowledge Components,Knowledge Components,31
+09-04-2025,40.0,Knowledge Components,Knowledge Components,32
+09-05-2025,40.0,Lecture,Lecture,33
+09-05-2025,40.0,Knowledge Components,Knowledge Components for Lecture,34
+09-06-2025,41.73913043478261,Office Hours,Office Hours,35
+09-06-2025,41.73913043478261,Knowledge Components,Knowledge Components for Office Hours,36
+09-07-2025,62.60869565217392,Office Hours,Office Hours,37
+09-07-2025,62.60869565217392,Knowledge Components,Knowledge Components for Office Hours,38
+09-08-2025,62.60869565217392,Lecture,Lecture,39
+09-08-2025,62.60869565217392,Knowledge Components,Knowledge Components for Lecture,40
+09-09-2025,62.60869565217392,Quiz,Quiz,41
+09-09-2025,62.60869565217392,Knowledge Components,Knowledge Components for Quiz,42
+09-10-2025,62.60869565217392,Knowledge Components,Knowledge Components,43
+09-11-2025,65.21739130434783,Reading,Reading,44
+09-11-2025,65.21739130434783,Knowledge Components,Knowledge Components for Reading,45
+09-12-2025,65.21739130434783,Knowledge Components,Knowledge Components,46
+09-13-2025,71.30434782608695,Office Hours,Office Hours,47
+09-13-2025,71.30434782608695,Knowledge Components,Knowledge Components for Office Hours,48
+09-14-2025,71.30434782608695,Knowledge Components,Knowledge Components,49
+09-15-2025,73.04347826086956,Lecture,Lecture,50
+09-15-2025,73.04347826086956,Knowledge Components,Knowledge Components for Lecture,51
+09-16-2025,73.04347826086956,Knowledge Components,Knowledge Components,52
+09-17-2025,73.04347826086956,Homework,Homework,53
+09-17-2025,73.04347826086956,Knowledge Components,Knowledge Components for Homework,54
+09-18-2025,73.04347826086956,Lecture,Lecture,55
+09-18-2025,73.04347826086956,Knowledge Components,Knowledge Components for Lecture,56
+09-19-2025,70.43478260869566,Quiz,Quiz,57
+09-19-2025,70.43478260869566,Knowledge Components,Knowledge Components for Quiz,58
